@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('./img/evening.jpg') no-repeat center;
+  background-size: cover;
+}
+
+#app {
+  position: relative;
+  height: 100vh;
+}
+
+.element {
+  position: fixed;
+  top: 20%;
+  left: 25%;
+  width: 50%;
+  color: #eee;
+}
+
+.drop-menu {
+  position: relative;
+  top: 100px;
+  right: 100px;
+  float: right;
+  color: #eee;
+}
+
+.select {
+  width: 150px;
+  border-radius: 5px;
+  background-color: inherit;
+  color: #eee;
+}
+
+.greeting {
+  text-align: center;
+}
+
+.input-user {
+  display: flex;
+  justify-content: center;
+}
+
+.time {
+  text-align: center;
+  font-size: 84px;
+}
+
+.cards {
+  float: right;
+  padding-top: 20px;
+  width: 300px;
+  color: #fff;
+  opacity: 0.8;
+}
