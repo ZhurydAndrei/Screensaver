@@ -65,7 +65,7 @@ function createWeather() {
       select.style.display = 'none'
       let unit = `
         <div class="cards text-center">
-          <img src="../img/${
+          <img src="./img/${
             response.weather[0].icon
           }.png" class="img" alt="weather">
           <h1 class="card-title">${response.name}</h1>
