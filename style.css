@@ -33,6 +33,10 @@ body {
   color: #eee;
 }
 
+option {
+  background: #000;
+}
+
 .greeting {
   text-align: center;
 }
